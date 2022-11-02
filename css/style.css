@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url(https://kartinkin.net/uploads/posts/2021-01/1611331447_40-p-fon-dlya-veb-dizaina-43.jpg);
+    padding: 100px 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 1200px;
+    min-height: 1500px; 
+    border: 10px solid white;
+    margin: 0 auto;
+    background: white;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://wp-s.ru/wallpapers/12/15/470557987289746/belye-ch-rtochki-na-sinem-fone.jpg) no-repeat center center / cover;
+    color: black    ;
+    margin-right: 10px;
+}
+
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://i.pinimg.com/originals/ea/d3/6b/ead36b75b450da2b900e5335694ff7fd.jpg) no-repeat center center / cover;
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(230,230,230);
+    margin: 10px 0;
+}
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #d1d1d1;
+    transition: 3s ease;
+}
+
+.nav li a:hover {
+    background: rgb(196,196,196);
+}
+
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: black;
+}
+
+#containerClick{
+	border: 10 px solid #926981;
+} 
+
+.social{
+	font-weight: bold;
+}
+
+
+.content-wrapper {
+    display: flex;
+}
+
+.thumb img {
+  margin-left:20px;  
+  border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+  padding: 15px; /* Расстояние от картинки до рамки */
+  background: #666; /* Цвет фона */
+  margin-right: 10px; /* Отступ справа */
+  margin-bottom: 10px; 
+}
+
+.content {
+    width: 70%;
+    padding: 20px; 
+    margin-left: 20px;
+}
+
+.content p {
+    line-height: 20px;
+    margin-left: 20px; 
+} 
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+}
+
+.skills li {
+    margin: 10px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+
+}
+
+.skills li:hover {
+    transform: translateX(10px)
+} 
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+  }
+  .social-icons>li {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .social-icons a {
+    position: relative;
+    background-color: #eee;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: background-color .3s ease-in-out;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+  .social-icons a:hover {
+    background-color: #e0e0e0;
+  }
+  .social-icons a::before { 
+    content: "";
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    left: .65rem;
+    top: .65rem;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+  }
+  .social-icons .social-icon-twitter::before {
+    background-image: url("...");
+  }
+  .social-icons .social-icon-fb::before {
+    background-image: url("...");
+  }
+  .social-icons .social-icon-vk::before {
+    background-image: url("...");
+  }
+  .social-icons .social-icon-telegram::before {
+    background-image: url("...");
+  }
+  .social-icons .social-icon-youtube::before {
+    background-image: url("...");
+  }
